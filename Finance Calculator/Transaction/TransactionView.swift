@@ -9,7 +9,23 @@ import SwiftUI
 
 struct TransactionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("Hello World")
+                .navigationTitle("Transactions")
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        EditButton()
+                    }
+                    
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button(action: {
+                            print("Button Pressed")
+                        }, label: {
+                            Image(systemName: "plus")
+                        })
+                    }
+                }
+        }
     }
 }
 
