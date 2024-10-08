@@ -15,6 +15,8 @@
 		906A23E02CB508D10095A705 /* Finance_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 906A23DE2CB508D10095A705 /* Finance_Calculator.xcdatamodeld */; };
 		906A23E82CB5F4ED0095A705 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A23E72CB5F4ED0095A705 /* TransactionView.swift */; };
 		906A23EA2CB5F54E0095A705 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A23E92CB5F54E0095A705 /* ExampleView.swift */; };
+		906A23EE2CB5F7710095A705 /* MerchantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A23ED2CB5F7710095A705 /* MerchantView.swift */; };
+		906A23F02CB5F7870095A705 /* VisualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A23EF2CB5F7870095A705 /* VisualView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		906A23DF2CB508D10095A705 /* Finance_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Finance_Calculator.xcdatamodel; sourceTree = "<group>"; };
 		906A23E72CB5F4ED0095A705 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 		906A23E92CB5F54E0095A705 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		906A23ED2CB5F7710095A705 /* MerchantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantView.swift; sourceTree = "<group>"; };
+		906A23EF2CB5F7870095A705 /* VisualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 		906A23D22CB508D00095A705 /* Finance Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				906A23EB2CB5F7450095A705 /* Merchants */,
 				906A23E62CB5F4D00095A705 /* Transaction */,
+				906A23EC2CB5F74D0095A705 /* Visuals */,
 				906A23D32CB508D00095A705 /* Finance_CalculatorApp.swift */,
 				906A23D52CB508D00095A705 /* ContentView.swift */,
 				906A23D72CB508D10095A705 /* Assets.xcassets */,
@@ -85,6 +91,22 @@
 				906A23E72CB5F4ED0095A705 /* TransactionView.swift */,
 			);
 			path = Transaction;
+			sourceTree = "<group>";
+		};
+		906A23EB2CB5F7450095A705 /* Merchants */ = {
+			isa = PBXGroup;
+			children = (
+				906A23ED2CB5F7710095A705 /* MerchantView.swift */,
+			);
+			path = Merchants;
+			sourceTree = "<group>";
+		};
+		906A23EC2CB5F74D0095A705 /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+				906A23EF2CB5F7870095A705 /* VisualView.swift */,
+			);
+			path = Visuals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +181,11 @@
 			files = (
 				906A23E02CB508D10095A705 /* Finance_Calculator.xcdatamodeld in Sources */,
 				906A23DD2CB508D10095A705 /* Persistence.swift in Sources */,
+				906A23F02CB5F7870095A705 /* VisualView.swift in Sources */,
 				906A23E82CB5F4ED0095A705 /* TransactionView.swift in Sources */,
 				906A23D62CB508D00095A705 /* ContentView.swift in Sources */,
 				906A23D42CB508D00095A705 /* Finance_CalculatorApp.swift in Sources */,
+				906A23EE2CB5F7710095A705 /* MerchantView.swift in Sources */,
 				906A23EA2CB5F54E0095A705 /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

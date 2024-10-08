@@ -11,7 +11,27 @@ import CoreData
 struct ContentView: View {
 
     var body: some View {
-        Text("Hello")
+        
+        TabView {
+            
+            MerchantView()
+                .tabItem {
+                    Image(systemName: "bag")
+                    Text("Merchants")
+                }
+            
+            TransactionView()
+                .tabItem {
+                    Image(systemName: "creditcard")
+                    Text("Transactions")
+                }
+            
+            VisualView()
+                .tabItem {
+                    Image(systemName: "chart.pie")
+                    Text("Visuals")
+                }
+        }
     }
     
 }
