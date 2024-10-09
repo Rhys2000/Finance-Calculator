@@ -23,9 +23,10 @@ struct TransactionView: View {
                     ToolbarItem(placement: .topBarTrailing) {
                         Button(action: {
                             print("Button Pressed")
-                        }, label: {
+                            showNewTransactionView.toggle()
+                        }) {
                             Image(systemName: "plus")
-                        })
+                        }
                     }
                 }
         }
