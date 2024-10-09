@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct TransactionView: View {
+    
+    @State var showNewTransactionView = false
+    
     var body: some View {
         NavigationStack {
             Text("Hello World")
