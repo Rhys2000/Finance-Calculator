@@ -10,6 +10,19 @@ import SwiftUI
 struct NewTransactionView: View {
     
     @State private var transactionDate = Date.now
+    @State private var transactionAmount = 0.0
+    
+    private var currencyFormatter: NumberFormatter {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.currencyCode = Locale.current.currency?.identifier ?? "USD"
+        formatter.currencySymbol = "$"
+        formatter.minimumFractionDigits = 2
+        formatter.maximumFractionDigits = 2
+        formatter.groupingSeparator = "."
+        formatter.usesGroupingSeparator = true
+        return formatter
+    }
     
     var body: some View {
         VStack {
