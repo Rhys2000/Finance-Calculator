@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct NewTransactionView: View {
+    
+    @State private var transactionDate = Date.now
+    
     var body: some View {
         Text("New Transaction View")
     }
