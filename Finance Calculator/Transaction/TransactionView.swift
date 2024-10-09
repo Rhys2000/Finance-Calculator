@@ -10,6 +10,7 @@ import SwiftUI
 struct TransactionView: View {
     
     @State var showNewTransactionView = false
+    @State private var newTransactionViewDetents = PresentationDetent.medium
     
     var body: some View {
         NavigationStack {
