@@ -32,6 +32,7 @@ struct TransactionView: View {
                 }
                 .sheet(isPresented: $showNewTransactionView, content: {
                     NewTransactionView()
+                        .presentationDetents([.medium, .large], selection: $newTransactionViewDetents)
                 })
         }
     }
