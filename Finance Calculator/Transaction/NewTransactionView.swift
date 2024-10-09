@@ -13,6 +13,9 @@ struct NewTransactionView: View {
     
     var body: some View {
         VStack {
+            Text("Enter Transaction Details")
+                .font(.title)
+                .bold()
             DatePicker("Enter your birthday", selection: $transactionDate, in: ...Date.now, displayedComponents: .date)
                 .datePickerStyle(GraphicalDatePickerStyle())
         }
