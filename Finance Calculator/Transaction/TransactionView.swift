@@ -29,6 +29,9 @@ struct TransactionView: View {
                         }
                     }
                 }
+                .sheet(isPresented: $showNewTransactionView, content: {
+                    NewTransactionView()
+                })
         }
     }
 }
