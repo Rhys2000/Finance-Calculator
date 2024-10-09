@@ -12,7 +12,10 @@ struct NewTransactionView: View {
     @State private var transactionDate = Date.now
     
     var body: some View {
-        Text("New Transaction View")
+        VStack {
+            DatePicker("Enter your birthday", selection: $transactionDate, in: ...Date.now, displayedComponents: .date)
+                .datePickerStyle(GraphicalDatePickerStyle())
+        }
     }
 }
 
