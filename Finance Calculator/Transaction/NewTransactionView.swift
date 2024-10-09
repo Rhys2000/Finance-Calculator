@@ -25,10 +25,13 @@ struct NewTransactionView: View {
     }
     
     var body: some View {
+                
         VStack {
             Text("Enter Transaction Details")
                 .font(.title)
                 .bold()
+            TextField("Amount", value: $transactionDate, formatter: currencyFormatter)
+                .textFieldStyle(.roundedBorder)
             DatePicker("Enter your birthday", selection: $transactionDate, in: ...Date.now, displayedComponents: .date)
                 .datePickerStyle(GraphicalDatePickerStyle())
         }
