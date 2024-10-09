@@ -17,6 +17,7 @@
 		906A23EA2CB5F54E0095A705 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A23E92CB5F54E0095A705 /* ExampleView.swift */; };
 		906A23EE2CB5F7710095A705 /* MerchantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A23ED2CB5F7710095A705 /* MerchantView.swift */; };
 		906A23F02CB5F7870095A705 /* VisualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A23EF2CB5F7870095A705 /* VisualView.swift */; };
+		906A23F22CB5FD3D0095A705 /* NewTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A23F12CB5FD3D0095A705 /* NewTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		906A23E92CB5F54E0095A705 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		906A23ED2CB5F7710095A705 /* MerchantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantView.swift; sourceTree = "<group>"; };
 		906A23EF2CB5F7870095A705 /* VisualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualView.swift; sourceTree = "<group>"; };
+		906A23F12CB5FD3D0095A705 /* NewTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				906A23E72CB5F4ED0095A705 /* TransactionView.swift */,
+				906A23F12CB5FD3D0095A705 /* NewTransactionView.swift */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				906A23E82CB5F4ED0095A705 /* TransactionView.swift in Sources */,
 				906A23D62CB508D00095A705 /* ContentView.swift in Sources */,
 				906A23D42CB508D00095A705 /* Finance_CalculatorApp.swift in Sources */,
+				906A23F22CB5FD3D0095A705 /* NewTransactionView.swift in Sources */,
 				906A23EE2CB5F7710095A705 /* MerchantView.swift in Sources */,
 				906A23EA2CB5F54E0095A705 /* ExampleView.swift in Sources */,
 			);
